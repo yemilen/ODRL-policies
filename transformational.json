@@ -20,5 +20,5 @@
             "operator": "eq",
             "rightOperand":{"@value": "10.00","@type":"xsd:decimal"},
           }]
-      ]}
+      }]
 }
