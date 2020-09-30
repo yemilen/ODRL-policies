@@ -1,0 +1,43 @@
+{
+"@type": "agreement ",
+"uid": "ex:policy:00",
+"profile": "ex:odrl:profile:00",
+"assigner": "companyY",
+"assignee": "companyX",
+"conflict": "perm",
+"prohibiiton": [{
+    "target": "datasetA",
+    "action": "share",
+     "constraint": [{
+       "leftOperand": "spatial",
+       "operator": "neq",
+       "rightOperand": "https://www.wikidata.org/wiki/Q458",
+       "comment": "outside EU"
+       }]
+    }],
+"permission": [{
+    "action": "share",
+    "target": "datasetA",
+    "refinement":[{
+        "and":{
+          "@list": [
+            {"@id": "ex:c1"}
+            {"@id": "ex:c2"}
+        ]}
+    }]
+  }]
+  }
+{
+"@type": "constraint",
+"uid": "ex:policy:00",
+"leftOperand": "purpose",
+"operator": "eq",
+"rightOperand": {"@value":"emergency", "@type":"xsd:string"}
+}
+{
+"@type": "constraint",
+"uid": "ex:policy:00",
+"leftOperand": "receipient",
+"operator": "eq",
+"rightOperand": {"@value":"partOfcrossboarderAgreement", "@type":"xsd:string"}
+}

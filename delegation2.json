@@ -1,0 +1,22 @@
+{
+  "@type": "agreement ",
+  "uid": "ex:policy:00",
+  "profile": "ex:odrl:profile:00",
+  "permission": [{
+    "assigner": "CompanyX",
+    "assignee": "CompanyY",
+    "action": "grantUse",
+    "target": "datasetA",
+    "duty": [{
+     "action": "nextPolicy",
+     "target": "ex:newPolicy"
+    }]
+}] }
+{
+  "@type": "set",
+  "uid": "ex:newPolicy",
+  "permission": [{
+    "action": "read",
+    "target": "datasetA",
+   }]
+}

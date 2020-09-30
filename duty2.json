@@ -1,0 +1,19 @@
+{
+"@type": "agreement ",
+"uid": "ex:policy:00",
+"profile": "ex:odrl:profile:00",
+"permission":{[
+    "assigner": "CompanyX",
+    "assignee": "CompanyY",
+    "action": "use",
+    "target": "datasetA",
+    "duty": {[
+       "action":"pay",
+       "refinement":
+        "leftoperand": "payAmount",
+        "operator": "eq",
+        "rightoperand": {"@value": "500.00", "@type": "xsd:decimal"},
+        "unit": "http://dbpedia.org/resource/Euro"
+        ]}
+      ]}
+    }

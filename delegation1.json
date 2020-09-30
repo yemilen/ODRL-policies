@@ -1,0 +1,11 @@
+
+{
+  "@type": "agreement ",
+  "uid": "ex:policy:00",
+  "profile": "ex:odrl:profile:00",
+  "permission": [{
+    "assigner": "CompanyX",
+    "assignee": "CompanyY",
+    "action": "transfer",
+    "target": "datasetA",
+}] }

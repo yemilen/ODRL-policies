@@ -1,0 +1,16 @@
+{
+"@type": "agreement ",
+"uid": "ex:policy:00",
+"profile": "ex:odrl:profile:00",
+"obligation":{[
+    "assigner": "CompanyX",
+    "assignee": "CompanyZ",
+    "action": "compensate",
+    "refinement": {[
+      "leftoperand":"payAmount",
+      "operator": "eq",
+      "rightOperand" {"@value": "2000.00", "@type": "xsd:decimal"},
+      "unit": "http://dbpedia.org/resource/Euro"
+      ]}
+    ]}
+  }
