@@ -2,7 +2,6 @@
 
 
 ---
-Goal
 The [Open Digital Rights language](https://www.w3.org/TR/odrl-model/) is designed as a policy expression language aiming to provide a flexible and interoperable information model, vocabulary and encoding mechanism for representing normative statements. This repository presents sample ODRL policies to test the capabilities of ODRL for our use-case.
 
 - Delegation
