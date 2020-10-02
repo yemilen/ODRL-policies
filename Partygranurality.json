@@ -1,0 +1,14 @@
+{
+
+"@type": "agreement ",
+"uid": "ex:policy:00",
+"profile": "ex:odrl:profile:00",
+"assigner":"companyX",
+"assignee":"companyy",
+"obligation"{[
+    "target": "datasetA",
+    "action": "track",
+    "trackingparty":"companyY",
+    "trackedparty":"companyZ"
+  ]}
+}
